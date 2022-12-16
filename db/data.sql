@@ -1,5 +1,5 @@
 USE company;
-INSERT INTO DEPARTMENTS (NAME)
+INSERT INTO DEPARTMENTS (department_name)
 VALUES
 ("Marketing"),
 ("Operations"),
@@ -16,11 +16,11 @@ VALUES
 ("Sales Manager", 15000, 4),
 ("Account Manager", 120000, 4);
 
-INSERT INTO employees (first_name, last_name, role_id)
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
-("Jon", "Snow", 1),
-("Samwell", "Tarley", 2),
-("Tyrion", "Lannister", 3),
+("Jon", "Snow", 1, NULL),
+("Samwell", "Tarley", 2, 1),
+("Tyrion", "Lannister", 3, NULL),
 ("Robb", "Stark", 4),
 ("Daemon", "Targaryen", 5),
 ("Jorah", "Mormont", 6),
