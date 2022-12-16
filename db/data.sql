@@ -21,9 +21,7 @@ VALUES
 ("Jon", "Snow", 1, NULL),
 ("Samwell", "Tarley", 2, 1),
 ("Tyrion", "Lannister", 3, NULL),
-("Robb", "Stark", 4),
-("Daemon", "Targaryen", 5),
-("Jorah", "Mormont", 6),
-("Brienne", "Tarth", 7),
-("Arya", "Stark", 4),
-("Rhaenyra", "Targaryen", 5);
+("Jorah", "Mormont", 4, 3),
+("Brienne", "Tarth", 5, NULL),
+("Robb", "Stark", 6, NULL),
+("Arya", "Stark", 7, 5);
